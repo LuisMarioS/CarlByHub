@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Hack;
+    src: url('../font.ttf')
+}
+
+* {
+    font-family: Hack    
+}
+
+p {
+    font-size: 13.8px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    transition: all 200ms ease;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    /* border: 1.4px dashed rgb(191, 29, 12) */
+    filter: drop-shadow(0 4px 8px #391111);
+}
+
+.logo-container {
+    width: 19.5%;
+    height: 100%;
+    display: grid; place-items: center
+}
+
+.logo-container > a {
+    cursor: none;
+    text-decoration: none;
+    display: block;
+    width: 87%;
+    height: 90%;
+    padding: 0; margin: 0
+}
+
+line {
+    width: 0.5px; height: auto;
+    border-right: 0.8px solid rgb(255, 30, 30);
+    border-left: 0.8px solid rgb(255, 30, 30);
+    background: rgb(255, 30, 30);
+    border-radius: 10px;
+}
+
+.nave {
+    width: 81.5%; height: 100%;
+    display: grid; place-items: center;
+}
+
+.nave > nav {
+    margin: 0;
+    display: flex;
+    gap: 4px
+}
+
+.nave a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    /* border-right: 2px solid rgb(255, 60, 60); */
+}
+
+/* .nave a:last-child {
+    border-right: none;
+    padding-right: none
+} */
+
+#logo_web {
+    width: 100%;
+    height: 100%;
+    /* border: 1.4px solid */
+}
+
+main {
+    margin: 17px 9px 0 9px;
+}
+
+#description > p span {
+    margin: 0; padding: 0;
+    color: Red;
+    font-size: 15px
+}
+
+span {
+    margin: 0;
+}
+
+.games {
+    color: #00aaff
+}
+
+.app {
+    color: #00B307
+}
+
+.tool {
+    color: #4a4a4a
+}
+
+.conf {
+    color: rgb(9, 129, 131)
+}
+
+/* Para la primera seccion del documento */
+
+li {
+    list-style: none
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 13.5px
+}

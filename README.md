@@ -31,3 +31,7 @@ más para añadir, las `carácteristicas` estan sobrebaloradas.
     └── moods
         └── index.html
 ```
+
+---
+Lás cosas se pondran más feas a partir de hoy, se me acaba el
+tiempo, pero nada que pueda a disfrutar.

@@ -1,5 +1,35 @@
-html, body {
+
+/* Estoy haciendo solo para mobile, estoy en telefono, y edito con NeoVim o Vim,
+ocupo apache2 para el server, espero que lo termine muy pronto */
+
+
+main {
+    margin: 20px 4px 0 4px;
+}
+
+main > section {
+    width: 100%; height: 100%;   
+    box-shadow: 0 0 8px rgb(183, 9, 10);
+    border-radius: 8px;
+}
+
+.ver {
     width: 100%; height: 100%;
-    display: grid; place-items: center;
-    box-sizing: border-box;
+    display: flex; gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.ver:last-child {
+    padding-bottom: 10px
+}
+
+.tarjeta {
+    width: 100px; height: 155px;
+    border: 0.2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.view { /* Primera Parte de la tarjeta */
+    width: 96%
 }

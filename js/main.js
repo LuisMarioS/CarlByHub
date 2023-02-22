@@ -1,1 +1,1 @@
-const readLine = require('readline')
+// Por el momento no trabajare en JavaScript
